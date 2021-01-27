@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Random Fictional Quote Generator (Mobile Friendly)</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+<p id='intro'>Click on New Quote to start!</p>
+
+<div id='container'>
+  <div id="quote-box">
+    <div id="media"></div>
+    <div id="quoteText">
+      <i id='leftQ' class="fas fa-quote-left"></i> 
+      <div id='text'></div>
+      <i id ='rightQ' class="fas fa-quote-right"></i>
+    </div>
+    <div id="quoteAuth">
+      <div id='author'></div>
+    </div>
+    <div id="buttonBox">
+      <a id="tweet-quote" target="blank" href="twitter.com/intent/tweet" data-text="custom share text">
+        <i class="fab fa-twitter" aria-hidden="true"></i>
+      </a>
+      <button id="new-quote" class="btn btn-default">
+        New Quote
+      </button>
+    </div>
+  </div>
+  <div id='triangle'></div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-mobile/1.4.1/jquery.mobile.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
