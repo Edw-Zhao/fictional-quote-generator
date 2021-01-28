@@ -104,7 +104,7 @@ i {
   margin: 0 auto 55px auto;
 }
 
-@media (min-width: 320px) and (max-width: 700px) {
+@media screen (min-width: 320px) and (max-width: 700px) {
   
   #intro {
     margin-bottom: 10px;
